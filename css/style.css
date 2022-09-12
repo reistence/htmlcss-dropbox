@@ -15,6 +15,9 @@ html {
 img {
   width: 100%;
 }
+p {
+  font-weight: 100;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -30,7 +33,7 @@ ul {
 .container {
   width: 60%;
   border: 1px solid black;
-  margin: 0 auto;
+  margin: 0 auto 2em;
 }
 .flex {
   display: flex;
@@ -148,6 +151,7 @@ nav ul > * {
 
 .membership.odd {
   width: 100%;
+  padding: 2em 0 2em 0;
 }
 
 .membership > * {
@@ -166,6 +170,7 @@ nav ul > * {
 }
 .price {
   font-weight: bold;
+  padding: 0.5em 0;
 }
 .monthly {
   font-weight: 100;
@@ -177,11 +182,20 @@ nav ul > * {
   margin: 0 auto;
 }
 .free-trial button {
-  width: 20em;
+  width: 90%;
+}
+
+.membership .odd p {
+  padding: 1.5em;
+}
+
+#stretched-btn {
+  width: 100%;
 }
 .hr-small {
   border-top: 3px solid #d0d0d5;
   width: 30%;
+  margin: 0;
 }
 
 .membership h5 {
@@ -229,6 +243,11 @@ nav ul > * {
 }
 
 /* SECTION4 */
+
+.h2-spaced {
+  margin-bottom: 3em;
+}
+
 /* SECTION5 */
 .partners {
   width: calc(100% / 3);
@@ -239,7 +258,7 @@ nav ul > * {
   justify-content: center;
   align-items: center;
   /* background-color: #0061ff; */
-  height: 200px;
+  height: 250px;
   padding: 2em;
 }
 .centre {
@@ -252,7 +271,7 @@ nav ul > * {
 }
 
 .centre p {
-  padding: 1em 0;
+  padding: 1em 3em;
 }
 
 #green {
@@ -281,15 +300,37 @@ nav ul > * {
   background-color: #ffd831;
 }
 /* SECTION6 */
+#section6 {
+  width: 100%;
+  background-color: #b4d0e7;
+}
+.centred {
+  align-items: center;
+}
 .trial {
   width: calc(100% / 2);
 }
 
+.trial button {
+  background-color: white;
+  color: black;
+  margin: 0 auto;
+  display: block;
+}
+
 /* SECTION7 */
 .question {
+  padding: 2em 0;
   justify-content: space-between;
 }
 
+.question p {
+  font-weight: bold;
+  padding: 1em 0;
+}
+.question i {
+  padding: 1em;
+}
 /* FOOTER */
 footer {
   background-color: black;
