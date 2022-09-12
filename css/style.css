@@ -19,6 +19,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.a-odd {
+  text-decoration: underline;
+  color: #0061ff;
+}
 ul {
   list-style: none;
   list-style-position: inside;
@@ -34,6 +38,7 @@ ul {
 }
 .nowrap {
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 button {
   background-color: #0061ff;
@@ -114,12 +119,74 @@ nav ul > * {
 }
 /* SECTION1 */
 
-.membership {
-  background-color: red;
-  border: 1px solid black;
-  width: calc(100% / 3);
+.container h2 {
+  font-size: 2.5rem;
+  padding: 1em 0;
 }
 
+.radio text {
+  padding: 2em;
+}
+
+.plans {
+  gap: 2em;
+}
+.membership {
+  width: calc(100% / 3 - 2em);
+  border: 1px solid #f1f1f2;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.membership.odd {
+  width: 100%;
+}
+
+.membership > * {
+  padding: 1em 0;
+}
+.membership-type {
+  text-align: center;
+  border: 1px solid #f1f1f2;
+}
+.membership h3 {
+  font-size: 1.5rem;
+  padding: 1em 0 0 0;
+}
+.price {
+  font-weight: bold;
+}
+.monthly {
+  font-weight: 100;
+}
+
+.membership .free-trial {
+  padding: 0.5em 1em;
+  text-align: center;
+  margin: 0 auto;
+}
+.free-trial button {
+  width: 20em;
+}
+.hr-small {
+  border-top: 3px solid #f1f1f2;
+  width: 30%;
+}
+
+.membership h5 {
+  font-size: 1rem;
+}
+
+.membership li {
+  padding-bottom: 1em;
+}
+.fa-check {
+  color: #0061ff;
+}
+.odd h3 {
+  padding: 0;
+}
 /* SECTION2 */
 
 /* SECTION3 */
