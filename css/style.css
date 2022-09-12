@@ -238,9 +238,8 @@ nav ul > * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0061ff;
+  /* background-color: #0061ff; */
   height: 200px;
-  border: 1px solid red;
   padding: 2em;
 }
 .centre {
