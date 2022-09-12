@@ -105,6 +105,10 @@ nav ul > * {
   margin: 2em 0;
   font-size: 1.2rem;
 }
+#jumbo-txt i {
+  font-size: 3.5rem;
+  margin-top: 1em;
+}
 #jumbo-img {
   flex-shrink: 0.9;
 }
