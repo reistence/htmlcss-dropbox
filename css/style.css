@@ -32,10 +32,15 @@ ul {
   display: flex;
   flex-wrap: wrap;
 }
+.nowrap {
+  flex-wrap: nowrap;
+}
 button {
   background-color: #0061ff;
   color: white;
   padding: 1em 1.5em;
+  border: none;
+  cursor: pointer;
 }
 
 /* DEBUG IMG PLACEHOLDER */
@@ -78,14 +83,31 @@ nav ul > * {
   width: 100%;
   background-color: #b4d0e7;
 }
+.container h1 {
+  padding: 1em 1em 1em 0em;
+  font-size: 4rem;
+}
 
 .jumbo-flex {
   display: flex;
 }
 .jumbo-flex > * {
-  padding: 2em 1em;
+  padding: 1em 0em;
 }
 
+#jumbo-txt {
+  flex-shrink: 1.2;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#jumbo-txt button {
+  margin: 2em 0;
+  font-size: 1.2rem;
+}
+#jumbo-img {
+  flex-shrink: 0.9;
+}
 /* SECTION1 */
 
 .membership {
@@ -95,9 +117,6 @@ nav ul > * {
 }
 
 /* SECTION2 */
-#nowrap {
-  flex-wrap: nowrap;
-}
 
 /* SECTION3 */
 .card {
