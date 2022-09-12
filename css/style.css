@@ -310,6 +310,9 @@ nav ul > * {
 .trial {
   width: calc(100% / 2);
 }
+.trial h2 {
+  padding: 3em 0;
+}
 
 .trial button {
   background-color: white;
