@@ -209,8 +209,16 @@ nav ul > * {
 
 /* SECTION3 */
 .card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: calc(100% / 3);
+  padding: 1em;
+}
+.card h3 {
+  font-size: 1.5rem;
+  padding: 1em 0 2em 0;
+}
+.card p {
+  font-weight: 100;
 }
 
 /* SECTION4 */
