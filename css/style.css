@@ -148,9 +148,14 @@ nav li:hover {
   margin-top: 1em;
 }
 #jumbo-img {
+  position: relative;
   flex-grow: 3;
   flex-basis: 0;
   /* margin-bottom: -3em; */
+}
+#jumbo-img img{
+  position: absolute;
+  bottom: -50px;
 }
 /* SECTION1 */
 
