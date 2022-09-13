@@ -115,7 +115,8 @@ nav ul > * {
 }
 
 #jumbo-txt {
-  flex-shrink: 1.2;
+  flex-grow: 1;
+  flex-basis: 0;
   font-size: 1.2rem;
   font-weight: 100;
 }
@@ -129,7 +130,8 @@ nav ul > * {
   margin-top: 1em;
 }
 #jumbo-img {
-  flex-shrink: 0.9;
+  flex-grow: 3;
+  flex-basis: 0;
   /* margin-bottom: -3em; */
 }
 /* SECTION1 */
