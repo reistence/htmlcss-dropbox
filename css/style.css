@@ -151,11 +151,12 @@ nav li:hover {
   position: relative;
   flex-grow: 3;
   flex-basis: 0;
-  /* margin-bottom: -3em; */
+  
 }
 #jumbo-img img{
   position: absolute;
-  bottom: -50px;
+  top: 0%;
+  width: 110%;
 }
 /* SECTION1 */
 
