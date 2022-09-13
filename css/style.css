@@ -429,6 +429,7 @@ footer {
 
 .container-footer.flex {
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .foot-nav ul,
 .foot-nav li {
