@@ -185,14 +185,13 @@ input {
 }
 
 .plans {
-  gap: 2em;
+  gap: 3em;
 }
 .membership {
   width: calc(100% / 3 - 2em);
   border: 1px solid #f1f1f2;
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
 }
 
 .membership.odd {
@@ -200,9 +199,9 @@ input {
   padding: 2em 0 2em 0;
 }
 
-.membership > * {
-  padding: 1em 0.5em;
-}
+/* .membership div > * {
+  padding: 0em 0.5em 1em;
+} */
 .membership-type {
   text-align: center;
   border: 1px solid #f1f1f2;
@@ -225,8 +224,23 @@ input {
 }
 .monthly {
   font-weight: 100;
+  padding: 1em;
 }
-
+.n-user {
+  padding: 1em;
+}
+.storage {
+  padding: 1em;
+}
+.function {
+  padding: 1em;
+}
+.overview {
+  padding: 1em;
+}
+.or {
+  padding: 1em;
+}
 .membership .free-trial {
   padding: 0.5em 1em;
   text-align: center;
@@ -234,6 +248,9 @@ input {
 }
 .free-trial button {
   width: 90%;
+}
+.membership ul > li {
+  padding: 1em;
 }
 
 .membership .odd p {
