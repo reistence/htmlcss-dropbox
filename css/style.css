@@ -199,9 +199,12 @@ nav ul > * {
   width: 100%;
 }
 .hr-small {
-  border-top: 0.5px solid #d0d0d5;
-  width: 30%;
-  margin: 0;
+  border-color: #d0d0d5;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  width: 10em;
 }
 
 .membership h5 {
