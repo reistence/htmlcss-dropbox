@@ -57,7 +57,6 @@ svg {
   fill: white;
   display: block;
   max-width: 50%;
-   */
 }
 
 /* DEBUG IMG PLACEHOLDER */
@@ -97,7 +96,7 @@ nav ul > * {
   align-items: center;
 }
 
-.button{
+.button {
   background-color: #0061ff;
   color: white;
   padding: 0.7em 1.5em;
@@ -118,6 +117,7 @@ nav li:hover {
   width: 100%;
   background-color: #b4d0e7;
   margin-top: 3em;
+  margin-bottom: 6em;
 }
 .container h1 {
   padding: 1em 1em 0em 0em;
@@ -151,9 +151,8 @@ nav li:hover {
   position: relative;
   flex-grow: 3;
   flex-basis: 0;
-  
 }
-#jumbo-img img{
+#jumbo-img img {
   position: absolute;
   top: 0%;
   width: 110%;
