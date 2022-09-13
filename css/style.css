@@ -106,7 +106,7 @@ nav ul > * {
 }
 
 nav li:hover {
-  border-bottom: 5px solid forestgreen;
+  border-bottom: 3px solid forestgreen;
 }
 /* JUMBOTRON */
 
@@ -380,6 +380,12 @@ input {
 .question i {
   padding: 1em;
 }
+
+.peekaboo {
+  display: none;
+  transition: 0.5s;
+}
+
 /* FOOTER */
 footer {
   background-color: black;
