@@ -72,7 +72,7 @@ svg {
 /* HEADER */
 header {
   width: 100%;
-  height: 8vh;
+  height: 9vh;
   /* position: fixed;
   top: 0;
   left: 0; */
@@ -108,6 +108,7 @@ nav ul > * {
 
 .jumbo-flex {
   display: flex;
+  align-items: center;
 }
 .jumbo-flex > * {
   padding: 1em 0em;
@@ -129,6 +130,7 @@ nav ul > * {
 }
 #jumbo-img {
   flex-shrink: 0.9;
+  /* margin-bottom: -3em; */
 }
 /* SECTION1 */
 
@@ -281,6 +283,9 @@ nav ul > * {
 
 .centre p {
   padding: 1em 3em;
+}
+#uni-florida {
+  fill: white;
 }
 
 #green {
