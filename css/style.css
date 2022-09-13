@@ -207,6 +207,9 @@ input {
   border: 1px solid #f1f1f2;
   padding: 1em;
 }
+.membership-justified {
+  padding: 2em;
+}
 .membership h3 {
   font-size: 1.5rem;
   padding: 1em 0 0 0.5em;
@@ -466,6 +469,10 @@ footer {
 .foot-nav ul,
 .foot-nav li {
   padding: 0.8em 0;
+}
+
+.foot-nav h4 {
+  padding: 1em 0;
 }
 
 .language {
