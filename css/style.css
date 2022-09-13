@@ -97,6 +97,11 @@ nav ul > * {
   align-items: center;
 }
 
+.button{
+  background-color: #0061ff;
+  color: white;
+  padding: 0.7em 1.5em;
+}
 #logo {
   padding: 0.8em;
 }
