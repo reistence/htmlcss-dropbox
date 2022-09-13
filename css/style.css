@@ -56,9 +56,8 @@ button {
 svg {
   fill: white;
   display: block;
-
-  /* width: 50%;
-  height: 50%; */
+  max-width: 50%;
+   */
 }
 
 /* DEBUG IMG PLACEHOLDER */
@@ -310,7 +309,7 @@ input {
   position: relative;
 }
 #design-centre {
-  padding: 1em 0;
+  padding: 1em 0 0 2.5em;
 }
 
 .centre p {
@@ -318,6 +317,7 @@ input {
 }
 #uni-florida {
   fill: white;
+  max-width: 80%;
 }
 
 #green {
