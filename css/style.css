@@ -36,7 +36,7 @@ li {
 .container {
   width: 60%;
   /* border: 1px solid black; */
-  margin: 0 auto 2em;
+  margin: 0 auto 3em;
 }
 .flex {
   display: flex;
@@ -247,7 +247,7 @@ nav ul > * {
 }
 .card h3 {
   font-size: 1.5rem;
-  padding: 1em 0 2em 0;
+  padding: 1em 0 1.3em 0;
 }
 .card p {
   font-weight: 100;
@@ -356,6 +356,7 @@ footer {
 .container-footer {
   margin: 0 auto 0;
   width: 60%;
+  padding: 1em 0 2em 0;
 }
 
 .container-footer.flex {
@@ -368,6 +369,6 @@ footer {
 
 .language {
   font: 0.5rem;
-  padding: 0.5em;
+  padding: 2.5em 0;
   color: grey;
 }
