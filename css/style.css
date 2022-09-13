@@ -201,20 +201,25 @@ input {
 }
 
 .membership > * {
-  padding: 1em 0;
+  padding: 1em 0.5em;
 }
 .membership-type {
   text-align: center;
   border: 1px solid #f1f1f2;
+  padding: 1em;
 }
 .membership h3 {
   font-size: 1.5rem;
-  padding: 1em 0 0 0;
+  padding: 1em 0 0 0.5em;
 }
 .membership span {
   font-weight: 100;
 }
 .price {
+  font-weight: bold;
+  padding: 0.5em 0.9em;
+}
+.price-odd {
   font-weight: bold;
   padding: 0.5em 0;
 }
