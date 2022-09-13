@@ -116,8 +116,8 @@ nav li:hover {
   margin-top: 3em;
 }
 .container h1 {
-  padding: 1em 1em 1em 0em;
-  font-size: 4rem;
+  padding: 1em 1em 0em 0em;
+  font-size: 4.5rem;
 }
 
 .jumbo-flex {
@@ -371,6 +371,7 @@ input {
 .question {
   padding: 2em 0;
   justify-content: space-between;
+  position: relative;
 }
 
 .question p {
@@ -379,11 +380,40 @@ input {
 }
 .question i {
   padding: 1em;
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
+.fa-angle-down {
+  color: black;
+}
+.hiddendiv p {
+  font-weight: 100;
 }
 
-.peekaboo {
+/* TOGGLE STRUCTURE */
+.clicker.hidden {
   display: none;
-  transition: 0.5s;
+}
+.hiddendiv {
+  display: none;
+  /* background-color: red; */
+}
+
+#showdiv1:target ~ div a[href="#showdiv1"],
+#showdiv2:target ~ div a[href="#showdiv2"],
+#showdiv3:target ~ div a[href="#showdiv3"] {
+  display: none;
+}
+#showdiv1:target ~ div a[href="#hidediv1"],
+#showdiv2:target ~ div a[href="#hidediv2"],
+#showdiv3:target ~ div a[href="#hidediv3"] {
+  display: inline-block;
+}
+#showdiv1:target ~ div .hiddendiv.nr1,
+#showdiv2:target ~ div .hiddendiv.nr2,
+#showdiv3:target ~ div .hiddendiv.nr3 {
+  display: block;
 }
 
 /* FOOTER */
@@ -402,7 +432,7 @@ footer {
 }
 .foot-nav ul,
 .foot-nav li {
-  padding: 1em 0;
+  padding: 0.8em 0;
 }
 
 .language {
