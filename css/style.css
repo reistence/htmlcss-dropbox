@@ -56,7 +56,7 @@ button {
 svg {
   fill: white;
   display: block;
-  max-width: 50%;
+  max-width: 80%;
 }
 
 /* DEBUG IMG PLACEHOLDER */
@@ -372,7 +372,7 @@ input {
   justify-content: center;
   align-items: center;
   /* background-color: #0061ff; */
-  height: 250px;
+  height: 320px;
   padding: 2em;
 }
 .centre {
@@ -382,6 +382,7 @@ input {
 }
 #design-centre {
   padding: 1em 0 0 2.5em;
+  max-width: 50%;
 }
 
 .centre p {
@@ -391,13 +392,18 @@ input {
   fill: white;
   max-width: 80%;
 }
-
+#design-green {
+  max-width: 80%;
+}
 #green {
   background-color: #a3d39b;
   border: 20px solid #d1e9cd;
 }
 #scarlet {
   background-color: #ff1e1c;
+}
+#asu-uni {
+  max-width: 50%;
 }
 #magenta {
   background-color: #62082b;
