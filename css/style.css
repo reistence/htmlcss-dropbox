@@ -90,7 +90,7 @@ nav ul {
 }
 
 nav ul > * {
-  padding: 1em 1.5em;
+  padding: 1em 1em;
   font-weight: 100;
   align-items: center;
 }
@@ -124,9 +124,10 @@ nav ul > * {
 }
 .menu-item span {
   padding-bottom: 1.5em;
+  width: 100%;
 }
 .menu-item span:hover {
-  padding-bottom: 1.5em;
+  /* padding-bottom: 1.5em; */
   border-bottom: 3px solid forestgreen;
   border-width: 100%;
 }
