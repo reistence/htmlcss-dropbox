@@ -232,11 +232,22 @@ input {
 .n-user {
   padding: 1em;
 }
+.n-user i {
+  padding: 0 1em 0 0;
+}
 .storage {
   padding: 1em;
+  display: flex;
+}
+.storage i {
+  padding: 0 1em 0 0;
 }
 .function {
   padding: 1em;
+  display: flex;
+}
+.function i {
+  padding: 0 1em 0 0;
 }
 .overview {
   padding: 1em;
@@ -254,6 +265,10 @@ input {
 }
 .membership ul > li {
   padding: 1em;
+  display: flex;
+}
+.membership-justified i {
+  padding-right: 1em;
 }
 
 .membership .odd p {
