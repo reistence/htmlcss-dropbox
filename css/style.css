@@ -86,16 +86,31 @@ nav ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 
 nav ul > * {
   padding: 1em 1.5em;
-
   font-weight: 100;
   align-items: center;
 }
 
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  display: none;
+  background-color: #0093ce;
+  width: 100%;
+  color: #f1f1f2;
+}
+
+.menu-item:hover .sub-menu {
+  display: inline-block;
+}
 .button {
   background-color: #0061ff;
   color: white;
@@ -107,8 +122,15 @@ nav ul > * {
 #logo:hover {
   border-bottom: 4px solid forestgreen;
 }
-
-nav li:hover {
+.menu-item span {
+  padding-bottom: 1.5em;
+}
+.menu-item span:hover {
+  padding-bottom: 1.5em;
+  border-bottom: 3px solid forestgreen;
+  border-width: 100%;
+}
+.sub-menu li:hover {
   border-bottom: 3px solid forestgreen;
 }
 /* JUMBOTRON */
