@@ -256,7 +256,6 @@ input {
   padding: 1em;
 }
 .membership .free-trial {
-  padding: 0.5em 1em;
   text-align: center;
   margin: 0 auto;
 }
@@ -268,7 +267,7 @@ input {
   display: flex;
 }
 .membership-justified i {
-  padding-right: 1em;
+  padding-right: 0.5em;
 }
 
 .membership .odd p {
