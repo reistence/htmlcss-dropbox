@@ -372,13 +372,15 @@ input {
   justify-content: center;
   align-items: center;
   /* background-color: #0061ff; */
-  height: 320px;
+  height: calc(30vw / 2);
   padding: 2em;
 }
 .centre {
   background-color: #f5f5f5;
   font-weight: 100;
   position: relative;
+  overflow-y: auto;
+  height: 30vw;
 }
 #design-centre {
   padding: 1em 0 0 2.5em;
